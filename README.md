@@ -1,4 +1,4 @@
-# 🛠️ Windows Repair Tools (PowerShell GUI)
+# 🛠️ Windows Repair Tools 
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows)
