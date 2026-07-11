@@ -25,4 +25,4 @@ Important Notice
 
 No liability is accepted for damage, data loss, misconfiguration, or system changes caused by using this tool.
 
-WinRepair.exe - Free to use at your own risk!
+WinRepairTool.exe - Free to use at your own risk!
