@@ -1,6 +1,6 @@
 # 🛠️ Windows Repair Tools 
 
-![WinRepair](https://img.shields.io/badge/WinRepair-2.0-0EA5E9?style=for-the-badge&logo=windows&logoColor=white)
+![WinRepair](https://img.shields.io/badge/WinRepair-2-0EA5E9?style=for-the-badge&logo=windows&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-Desktop-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Use At Own Risk](https://img.shields.io/badge/Use%20At%20Own%20Risk-Warning-orange?style=for-the-badge)
