@@ -1,21 +1,40 @@
-# 🛠️ Windows Repair Tools 
+# Alpha10 WindRepair Tool
 
-![WinRepair](https://img.shields.io/badge/WinRepair-2-0EA5E9?style=for-the-badge&logo=windows&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-Desktop-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Use At Own Risk](https://img.shields.io/badge/Use%20At%20Own%20Risk-Warning-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue)
+![Language](https://img.shields.io/badge/language-DE%20%7C%20EN-green)
+![License](https://img.shields.io/badge/license-Freeware-lightgrey)
 
-WinRepair is a small Windows desktop tool that bundles common repair, diagnostic, cleanup, network and system shortcuts in one clean interface. It is intended for quick troubleshooting on Windows 10 and Windows 11 systems, especially when standard tools like SFC, DISM, Event Viewer, Windows Update repair, network reset or cache cleanup are needed without searching through menus or remembering commands.
+Kostenloses, portables Reparatur- und Wartungstool für Windows 10 und 11 – keine Installation nötig.
 
-The tool does not run repairs automatically. Actions are started manually, and potentially risky operations ask for confirmation first. Some functions require administrator rights because they call built-in Windows maintenance tools.
+## Funktionen
 
+- **Systemreparatur:** SFC-Scan, DISM (CheckHealth / ScanHealth / RestoreHealth / Cleanup), CHKDSK mit Laufwerksauswahl
+- **Netzwerk:** ARP-/DNS-Reset, Firewall-Reset, TCP/IP-Stack-Reset, Netzwerkadapter neu starten, IP erneuern
+- **Bereinigung:** Datenträgerbereinigung, Outlook-/Teams-/Browser-Cache, Temp-Ordner, Prefetch
+- **Windows-Tools:** Geräte-Manager, Registry-Editor, Dienste, Systemkonfiguration, Datenträgerverwaltung, Aktivierungsstatus
+- **Windows Update:** Update-Einstellungen öffnen, Update-Dienste zurücksetzen
+- Zweisprachige Oberfläche (Deutsch/Englisch) mit automatischer Erkennung und manuellem Umschalter
+- Admin-Rechte nur bei Bedarf – kein erzwungener UAC-Prompt beim Start
+- Sicherheitsabfragen vor allen kritischen bzw. spürbaren Aktionen
+- Aktions-Log unter `C:\Temp\WindowsRepairTool.log`
+- Läuft als eigenständige `.exe`, keine Installation erforderlich
 
-Requirements
-Windows 10 or Windows 11
+## Voraussetzungen
 
-**No administrator rights are required to launch the application. Individual functions will prompt for administrator rights before execution.**
+- Windows 10 oder Windows 11
+- Für einige Funktionen: Administratorrechte (werden im Tool bei Bedarf per Klick angefragt)
 
-Some tools may only be available on specific Windows editions, for example Group Policy Editor on Pro/Enterprise editions.<br><br>
+## Nutzung
+
+1. `WindowsRepairTool.exe` herunterladen und starten
+2. Hinweis- und Haftungsausschluss-Dialog bestätigen
+3. Gewünschte Funktion per Klick ausführen
+
+## Haftungsausschluss
+
+Die Nutzung dieses Tools erfolgt auf eigene Verantwortung. Einige Funktionen greifen tief in das System ein (z. B. Registry, Datenträgerprüfung, Update-Zurücksetzung) und können bei falscher Anwendung zu Datenverlust oder Systemproblemen führen.
+
+Es wird **keinerlei Gewähr oder Haftung** für Schäden jeglicher Art übernommen, die durch die Nutzung dieses Tools entstehen. Die Nutzung ist kostenlos und erfolgt „wie besehen" (as-is), ohne jegliche Garantie.
 
 
 
